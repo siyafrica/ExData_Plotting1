@@ -1,0 +1,7 @@
+par(mfcol=c(2,2))
+> plot(subsetted$Global_active_power, ylab="Global Active Power", type="l")
+> plot(subsetted$Sub_metering_1, ylab="Energy sub metering", type="l")
+> lines(subsetted$Sub_metering_2, col="red", type="l")
+> lines(subsetted$Sub_metering_3, col="blue", type="l")
+> plot(subsetted$Voltage, type="l", ylab="Voltage", xlab="datetime")
+> plot(subsetted$Global_reactive_power, ylab="Global_reactive_power", xlab="datetime", type="l")

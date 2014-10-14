@@ -1,0 +1,1 @@
+plot(subsetted$Global_active_power, ylab = "Global Active Power (kilowatts)", type="l")
